@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Work Request Portal</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- CryptoJS for encryption -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+
+    <!-- Circle Logo -->
+    <div class="logo">
+        <img src="logo.png" alt="WR Logo">
+    </div>
+
+    <div class="container">
+        <h1>Request Work</h1>
+        <p>Submit your work request.</p>
+
+        <form id="requestForm">
+            <label>Your Name</label>
+            <input type="text" id="name" required />
+
+            <label>Your Email</label>
+            <input type="email" id="email" required />
+
+            <label>Work Request</label>
+            <textarea id="message" required></textarea>
+
+            <button type="submit">Submit Request</button>
+        </form>
+
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
