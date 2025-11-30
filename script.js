@@ -33,6 +33,9 @@ document.getElementById("requestForm").addEventListener("submit", function(e) {
             })
         });
 
+        YOUR_GOOGLE_SHEET_WEBAPP_URL
+
+
         loading.style.display = "none"; // Hide loader
         document.getElementById("popup").style.display = "flex"; // Show popup
         document.getElementById("requestForm").reset();
